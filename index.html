@@ -116,7 +116,7 @@
         const itineraryData = [
             // Day 1: 12/3 (三) - 抵達 NRT T2 14:20，交通改為 Skyliner 轉新幹線
             {
-                day: 1, date: "12/3 (三)", dayTitle: "Skyliner與輕井澤", activities: [
+                day: 1, date: "12/3 (三)", dayTitle: "前往輕井澤", activities: [
                     { time: "10:00-14:20", name: "飛往日本", description: "桃園機場 > 成田國際機場第2航廈 (抵達 14:20)", icon: "plane" },
                     { time: "14:20-15:20", name: "入境手續與移動", description: "辦理入境與前往 Skyliner 乘車處", icon: "route" },
                     { time: "15:20-16:30", name: "搭乘 Skyliner", description: "成田機場搭乘 Skyliner > 上野車站", icon: "train" },
@@ -353,8 +353,8 @@
                 lucide.createIcons();
             }
 
-            // 3. 預設顯示 Day 5 (築地、銀座時尚與東京車站夜景)
-            showDay(5); 
+            // 3. 預設顯示 Day 1 (前往輕井澤)
+            showDay(1); 
 
             // 4. 設定頂部導航條的背景色，使其與 body 顏色一致
             document.querySelector('header').style.backgroundColor = 'var(--color-earth-light)';
@@ -362,4 +362,5 @@
     </script>
 </body>
 </html>
+
 
